@@ -18,4 +18,27 @@ a{
 a:hover{
 	color:yellow;
 }
+img{
+	width: 200px;
+	height: 200px;
+	margin: 30px;
+	/*padding:30px;*/
+	border-radius: 10px;
+}
+button{
+	background-color: red;
+	color: white;
+	font-size: 20px;
+	border-color: red;
+	margin: 10px;
+	
+}
+	
 
+.primero{
+	
+	font-family:arial; 
+	color:white;
+	
+
+}
