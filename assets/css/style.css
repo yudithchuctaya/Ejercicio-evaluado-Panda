@@ -1,5 +1,11 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family:cursive;
+
+}
 body{
-    background: #000;
+    background: #1d1a05;
 }
 ul{
     background-color:#ca3c25; 
@@ -28,17 +34,40 @@ img{
 button{
 	background-color: red;
 	color: white;
-	font-size: 20px;
+	font-size: 25px;
 	border-color: red;
 	margin: 10px;
+	border-radius: 10px;
+	padding: 10px 70px;
 	
 }
-	
-
-.primero{
-	
-	font-family:arial; 
-	color:white;
-	
-
+.primero1{
+	outline: 5px solid yellow;
+	width: 45%;
+	height: 250px;
+	background-color: orange;
+	font-family:cursive; 
+	color:#000;
+	margin-left: 3%;
+	float: left;
+}
+.primero2{
+	outline: 5px solid yellow;
+	width: 45%;
+	height: 250px;
+	background-color: orange;
+	margin-left: 50%;
+	font-family:cursive; 
+	color: #000;	
+}
+#cerrar1 , #cerrar2,#cerrar3,#cerrar4{
+  background: pink;
+  width: 25px;
+  height: 25px; 
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  color:#000;
+  border-radius: 50%;
+  margin-top: -50px;
 }
