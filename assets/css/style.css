@@ -5,24 +5,37 @@
 
 }
 body{
-    background: #1d1a05;
+    background:black;
+     background-position: center;
+    background-image: url('http://3.bp.blogspot.com/-YOMQmCZIJaU/UkuMVCv1_OI/AAAAAAAB6Fo/8iE2X5VWmM8/s1600/paisaje.gif');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
 }
 ul{
-    background-color:#ca3c25; 
+    /*background-color:#1B840A;*/
+    background-position: center;
+    background-image: url('https://i.pinimg.com/originals/8c/96/78/8c9678378df3d3a03411f3c930fcca10.gif');
+    background-repeat: no-repeat;
 }
 li{
     display: inline-block;
-    padding: 30px;
+    padding: 35px;
     list-style: none;
+    font-size: 18px;
+
 
 }
 a{
-    color:whitesmoke;
+    color:white;
     padding: 10px;
+    text-decoration: none;
 
 }
 a:hover{
-	color:yellow;
+	color:#67E195;
+	font-size:22px;
 }
 img{
 	width: 200px;
@@ -31,43 +44,69 @@ img{
 	/*padding:30px;*/
 	border-radius: 10px;
 }
-button{
-	background-color: red;
+button {
+	 background-position: center;
+    background-image: url('https://thumbs.dreamstime.com/t/fondo-o-cartelera-de-madera-del-estilo-rural-con-la-cuatro-hoja-dos-46416640.jpg');
+    background-repeat: no-repeat;
 	color: white;
 	font-size: 25px;
-	border-color: red;
 	margin: 10px;
 	border-radius: 10px;
-	padding: 10px 70px;
+	padding: 30px 50px;
+	overflow: hidden;
+	
 	
 }
 .primero1{
-	outline: 5px solid yellow;
+	 background-position: center;
+    background-image: url('https://i.pinimg.com/originals/70/dd/ee/70ddee4e3471cd185725c5d2d6503e71.jpg');
+    background-repeat: no-repeat;
 	width: 45%;
-	height: 250px;
-	background-color: orange;
+	height: 500px;
 	font-family:cursive; 
-	color:#000;
-	margin-left: 3%;
+	color:black;
 	float: left;
+	margin-left: 4%;
+	overflow: hidden;
+
 }
 .primero2{
-	outline: 5px solid yellow;
+	 background-position: center;
+    background-image: url('https://i.pinimg.com/originals/70/dd/ee/70ddee4e3471cd185725c5d2d6503e71.jpg');
+    background-repeat: no-repeat;
+    position: relative;
 	width: 45%;
-	height: 250px;
-	background-color: orange;
-	margin-left: 50%;
+	height: 500px;
+	margin-left: 1%;
 	font-family:cursive; 
-	color: #000;	
+	color: black;
+	overflow: hidden;	
 }
+#texto1{
+
+	margin-left: 6%;
+	width: 330px;
+	height: 400px;
+	margin-top:10%;
+	border-radius: 300px;
+	
+}
+#texto2{
+	
+	margin-left: 6%;
+	width: 330px;
+	height: 450px;
+	border-radius: 300px
+	
+}
+
 #cerrar1 , #cerrar2,#cerrar3,#cerrar4{
-  background: pink;
+  background: black;
   width: 25px;
   height: 25px; 
   text-align: center;
   text-decoration: none;
   font-size: 25px;
-  color:#000;
+  color:white;
   border-radius: 50%;
-  margin-top: -50px;
 }
